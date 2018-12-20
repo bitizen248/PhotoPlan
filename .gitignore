@@ -106,7 +106,6 @@ fastlane/readme.md
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.nar
 *.ear
@@ -163,9 +162,3 @@ gen### Linux template
 .nfs*
 
 .idea/
-build.gradle
-gradle.properties
-gradle/
-gradlew
-gradlew.bat
-settings.gradle
