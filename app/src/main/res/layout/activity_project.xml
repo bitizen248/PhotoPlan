@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    
+    <ru.ada.adaphotoplan.view.ProjectView
+        android:id="@+id/project_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/left_preview"
+        style="@style/preview_window"/>
+
+    <ImageView
+        android:id="@+id/right_preview"
+        android:layout_alignParentRight="true"
+        style="@style/preview_window" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_above="@+id/toolbar"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_delete"/>
+
+    
+    <include layout="@layout/toolbar_project" />
+
+</RelativeLayout>

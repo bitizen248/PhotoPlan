@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ADA Photo Plan</string>
+    <string name="make_photo">Сделать\nфото</string>
+    <string name="gallery">Выбрать\nиз галереи</string>
+    <string name="grid">Создать\nсетку</string>
+    <string name="save_project">Сохранить проект</string>
+    <string name="last_project">Последнее</string>
+    <string name="share">Поделиться</string>
+
+    <string name="share_success">План экспартирован в папку на Вашем устройстве ADA Photo Plan</string>
+    <string name="share_fail">Не удалось создать файл</string>
+    <string name="setting_device">Настройка дальномера</string>
+    <string name="no_last_project">Или последний проект удален или вы еще не создавали проект</string>
+    <string name="error_project_opening">Не удалось открыть изображение проекта. Проект будет загружен без картинки</string>
+    <string name="please_enable_ble">Для получения списка устройств необходимо включить Bluetooth</string>
+    <string name="enable">Включить</string>
+    <string name="connected_to">Вы подключены к %1$s</string>
+    <string name="disconnect">Отключить</string>
+    <string name="project_save">Проект сохранен</string>
+    <string name="mode_edit">Режим редактирования</string>
+    <string name="mode_draw">Режим рисования</string>
+    <string name="connection_lost">Соединение с устройством потеряно</string>
+    <string name="connected">Установлено соединение с устройством</string>
+    <string name="no_project">Нет проекта</string>
+    <string name="cancel">Отмена</string>
+    <string name="name">Имя</string>
+    <string name="choose_line">Выберите линию для добавления надписи</string>
+    <string name="save_before_exit">Сохранить изменения в проекте перед выходом?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="project">Проект</string>
+    <string name="copy">Копия</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string-array name="fragments_titles">
+        <item>Создать проект</item>
+        <item>Проекты</item>
+        <item>Устройства</item>
+    </string-array>
+</resources>

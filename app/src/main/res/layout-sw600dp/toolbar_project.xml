@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:clickable="true"
+    android:gravity="center_vertical"
+    android:background="#80000000"
+    android:layout_alignParentBottom="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/reset"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:focusableInTouchMode="true"
+        android:padding="10dp"
+        android:src="@drawable/ic_cancel"/>
+
+    <EditText
+        android:id="@+id/label"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="20sp"
+        android:padding="4dp"
+        android:inputType="textShortMessage"
+        android:maxLines="1"
+        android:maxLength="9"
+        android:gravity="center_vertical|left"
+        android:hint="Надпись"
+        android:textColorHint="#80ffffff"
+        android:textColor="@android:color/white"
+        android:background="@null" />
+
+    <ImageView
+        android:id="@+id/add"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="6dp"
+        android:src="@drawable/ic_confirm"
+        android:visibility="invisible"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:id="@+id/center"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        android:padding="6dp"
+        android:src="@drawable/ic_center"
+        android:layout_marginRight="8dp"/>
+
+    <ImageView
+        android:id="@+id/undo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="8dp"
+        android:padding="6dp"
+        android:src="@drawable/ic_undo"/>
+
+    <ImageView
+        android:id="@+id/mode"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="8dp"
+        android:src="@drawable/ic_square"
+        android:background="@drawable/bg_mode"/>
+
+</LinearLayout>
